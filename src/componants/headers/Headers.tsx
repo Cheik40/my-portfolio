@@ -1,13 +1,13 @@
 import Navbar from "../navbar/Navbar";
-import Button from "../ui/Button";
+import "./Header.module.css";
+import styles from "./Header.module.css";
 
 function Headers() {
     return (
-        <div>
-            <div>Cheikh NDIAYE</div>
+        <header>
+            <div className={styles.logo}>Cheikh NDIAYE</div>
             <Navbar />
-            <Button label='Contactez moi' />
-        </div>
+        </header>
     );
 }
 

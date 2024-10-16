@@ -1,3 +1,5 @@
+import "./NavItem.module.css";
+
 interface NavItemProps {
     url: string;
     label: string;

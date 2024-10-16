@@ -1,10 +1,15 @@
 import Headers from "./componants/headers/Headers";
+import Experiances from "./pages/experiances/Experiances";
+import Home from "./pages/home/Home";
+import Skills from "./pages/skills/Skills";
 
 function App() {
     return (
         <>
-            <h1>dev frontend</h1>
             <Headers />
+            <Home />
+            <Skills />
+            <Experiances />
         </>
     );
 }
