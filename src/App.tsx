@@ -1,14 +1,17 @@
 import Headers from "./componants/headers/Headers";
-// import Experiances from "./pages/experiances/Experiances";
+import About from "./pages/about/About";
 import Home from "./pages/home/Home";
-// import Skills from "./pages/skills/Skills";
+import Skills from "./pages/skills/Skills";
+// import Experiances from "./pages/experiances/Experiances";
 
 function App() {
     return (
         <>
             <Headers />
             <Home />
-            {/* <Skills /> */}
+            <About />
+            <Skills />
+
             {/* <Experiances /> */}
         </>
     );

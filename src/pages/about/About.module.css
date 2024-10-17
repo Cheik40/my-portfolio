@@ -1,0 +1,62 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    background-color: #d7d7d7;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.about1 {
+    width: 200px;
+    height: 60px;
+    border: 3px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description {
+    margin-top: 50px;
+    position: relative;
+    width: 570px;
+}
+
+.reparate {
+    position: relative;
+    width: 170px;
+    height: 12px;
+    margin-top: 30px;
+}
+
+.details {
+    position: relative;
+    width: 1066px;
+    height: 253px;
+    margin-top: 40px;
+}
+
+.spec {
+    position: absolute;
+    width: 516px;
+    height: 177px;
+    left: 40px;
+    top: 67px;
+}
+
+.dev {
+    position: absolute;
+    width: 516px;
+    height: 177px;
+    left: 640px;
+    top: 67px;
+}
+
+.maintenance {
+    position: absolute;
+    width: 516px;
+    height: 177px;
+    left: 300px;
+    top: 200px;
+}

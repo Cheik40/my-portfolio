@@ -16,13 +16,13 @@ function Home() {
                     Developer Front-end / UI Designer
                 </p>
                 <div className={styles.socialIcons}>
-                    <a href='#'>
+                    <a href='mailto:djilyhoo@gmail.com'>
                         <img src={emailIcon} alt='Email' />
                     </a>
-                    <a href='#'>
+                    <a href='https://github.com/Cheik40'>
                         <img src={githubIcon} alt='GitHub' />
                     </a>
-                    <a href='#'>
+                    <a href='https://fr.linkedin.com/in/cheikh-ndiaye-870513196?trk=public_profile_browsemap_profile-result-card_result-card_full-click'>
                         <img src={linkedinIcon} alt='LinkedIn' />
                     </a>
                 </div>
