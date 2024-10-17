@@ -1,7 +1,7 @@
 import "./NavItem.module.css";
 
 interface NavItemProps {
-    url: string;
+    url: HTMLAnchorElement;
     label: string;
 }
 

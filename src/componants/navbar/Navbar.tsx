@@ -22,8 +22,10 @@ function Navbar() {
                 <li>
                     <a href='#experiences'>Expériences</a>
                 </li>
+                <li>
+                    <Button onClick={() => true} label='Contactez moi' />
+                </li>
             </ul>
-            <Button onClick={() => true} label='Contactez moi' />
         </nav>
     );
 }
