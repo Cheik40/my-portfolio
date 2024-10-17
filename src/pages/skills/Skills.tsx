@@ -1,14 +1,146 @@
+import styles from "./Skills.module.css";
+
 function Skills() {
     return (
-        <div>
-            <div id='skills'>
+        <div className={styles.skillsContain}>
+            <div id='skills' className={styles.skills}>
                 <span>Compétences</span>
                 <div>
                     Développeur Front End passionné avec 2 ans d'expérience dans
                     la création d'applications avec l'ERP shuttle. Je souhaite
                     rejoindre une équipe dynamique afin de contribuer à des
                     projets innovants et stimulants. Je souhaite apporter des
-                    solutions créatives aux défis complexes.
+                    solutions créatives aux défis complexes. Développeur Front
+                    End passionné avec 2 ans d'expérience dans la création
+                    d'applications avec l'ERP shuttle. Je souhaite rejoindre une
+                    équipe dynamique afin de contribuer à des projets innovants
+                    et stimulants. Je souhaite apporter des solutions créatives
+                    aux défis complexes. Développeur Front End passionné avec 2
+                    ans d'expérience dans la création d'applications avec l'ERP
+                    shuttle. Je souhaite rejoindre une équipe dynamique afin de
+                    contribuer à des projets innovants et stimulants. Je
+                    souhaite apporter des solutions créatives aux défis
+                    complexes. Développeur Front End passionné avec 2 ans
+                    d'expérience dans la création d'applications avec l'ERP
+                    shuttle. Je souhaite rejoindre une équipe dynamique afin de
+                    contribuer à des projets innovants et stimulants. Je
+                    souhaite apporter des solutions créatives aux défis
+                    complexes. Développeur Front End passionné avec 2 ans
+                    d'expérience dans la création d'applications avec l'ERP
+                    shuttle. Je souhaite rejoindre une équipe dynamique afin de
+                    contribuer à des projets innovants et stimulants. Je
+                    souhaite apporter des solutions créatives aux défis
+                    complexes. Développeur Front End passionné avec 2 ans
+                    d'expérience dans la création d'applications avec l'ERP
+                    shuttle. Je souhaite rejoindre une équipe dynamique afin de
+                    contribuer à des projets innovants et stimulants. Je
+                    souhaite apporter des solutions créatives aux défis
+                    complexes. Développeur Front End passionné avec 2 ans
+                    d'expérience dans la création d'applications avec l'ERP
+                    shuttle. Je souhaite rejoindre une équipe dynamique afin de
+                    contribuer à des projets innovants et stimulants. Je
+                    souhaite apporter des solutions créatives aux défis
+                    complexes. Développeur Front End passionné avec 2 ans
+                    d'expérience dans la création d'applications avec l'ERP
+                    shuttle. Je souhaite rejoindre une équipe dynamique afin de
+                    contribuer à des projets innovants et stimulants. Je
+                    souhaite apporter des solutions créatives aux défis
+                    complexes. Développeur Front End passionné avec 2 ans
+                    d'expérience dans la création d'applications avec l'ERP
+                    shuttle. Je souhaite rejoindre une équipe dynamique afin de
+                    contribuer à des projets innovants et stimulants. Je
+                    souhaite apporter des solutions créatives aux défis
+                    complexes. Développeur Front End passionné avec 2 ans
+                    d'expérience dans la création d'applications avec l'ERP
+                    shuttle. Je souhaite rejoindre une équipe dynamique afin de
+                    contribuer à des projets innovants et stimulants. Je
+                    souhaite apporter des solutions créatives aux défis
+                    complexes. Développeur Front End passionné avec 2 ans
+                    d'expérience dans la création d'applications avec l'ERP
+                    shuttle. Je souhaite rejoindre une équipe dynamique afin de
+                    contribuer à des projets innovants et stimulants. Je
+                    souhaite apporter des solutions créatives aux défis
+                    complexes. Développeur Front End passionné avec 2 ans
+                    d'expérience dans la création d'applications avec l'ERP
+                    shuttle. Je souhaite rejoindre une équipe dynamique afin de
+                    contribuer à des projets innovants et stimulants. Je
+                    souhaite apporter des solutions créatives aux défis
+                    complexes. Développeur Front End passionné avec 2 ans
+                    d'expérience dans la création d'applications avec l'ERP
+                    shuttle. Je souhaite rejoindre une équipe dynamique afin de
+                    contribuer à des projets innovants et stimulants. Je
+                    souhaite apporter des solutions créatives aux défis
+                    complexes. Développeur Front End passionné avec 2 ans
+                    d'expérience dans la création d'applications avec l'ERP
+                    shuttle. Je souhaite rejoindre une équipe dynamique afin de
+                    contribuer à des projets innovants et stimulants. Je
+                    souhaite apporter des solutions créatives aux défis
+                    complexes. Développeur Front End passionné avec 2 ans
+                    d'expérience dans la création d'applications avec l'ERP
+                    shuttle. Je souhaite rejoindre une équipe dynamique afin de
+                    contribuer à des projets innovants et stimulants. Je
+                    souhaite apporter des solutions créatives aux défis
+                    complexes. Développeur Front End passionné avec 2 ans
+                    d'expérience dans la création d'applications avec l'ERP
+                    shuttle. Je souhaite rejoindre une équipe dynamique afin de
+                    contribuer à des projets innovants et stimulants. Je
+                    souhaite apporter des solutions créatives aux défis
+                    complexes. Développeur Front End passionné avec 2 ans
+                    d'expérience dans la création d'applications avec l'ERP
+                    shuttle. Je souhaite rejoindre une équipe dynamique afin de
+                    contribuer à des projets innovants et stimulants. Je
+                    souhaite apporter des solutions créatives aux défis
+                    complexes. Développeur Front End passionné avec 2 ans
+                    d'expérience dans la création d'applications avec l'ERP
+                    shuttle. Je souhaite rejoindre une équipe dynamique afin de
+                    contribuer à des projets innovants et stimulants. Je
+                    souhaite apporter des solutions créatives aux défis
+                    complexes. Développeur Front End passionné avec 2 ans
+                    d'expérience dans la création d'applications avec l'ERP
+                    shuttle. Je souhaite rejoindre une équipe dynamique afin de
+                    contribuer à des projets innovants et stimulants. Je
+                    souhaite apporter des solutions créatives aux défis
+                    complexes. Développeur Front End passionné avec 2 ans
+                    d'expérience dans la création d'applications avec l'ERP
+                    shuttle. Je souhaite rejoindre une équipe dynamique afin de
+                    contribuer à des projets innovants et stimulants. Je
+                    souhaite apporter des solutions créatives aux défis
+                    complexes. Développeur Front End passionné avec 2 ans
+                    d'expérience dans la création d'applications avec l'ERP
+                    shuttle. Je souhaite rejoindre une équipe dynamique afin de
+                    contribuer à des projets innovants et stimulants. Je
+                    souhaite apporter des solutions créatives aux défis
+                    complexes. Développeur Front End passionné avec 2 ans
+                    d'expérience dans la création d'applications avec l'ERP
+                    shuttle. Je souhaite rejoindre une équipe dynamique afin de
+                    contribuer à des projets innovants et stimulants. Je
+                    souhaite apporter des solutions créatives aux défis
+                    complexes. Développeur Front End passionné avec 2 ans
+                    d'expérience dans la création d'applications avec l'ERP
+                    shuttle. Je souhaite rejoindre une équipe dynamique afin de
+                    contribuer à des projets innovants et stimulants. Je
+                    souhaite apporter des solutions créatives aux défis
+                    complexes. Développeur Front End passionné avec 2 ans
+                    d'expérience dans la création d'applications avec l'ERP
+                    shuttle. Je souhaite rejoindre une équipe dynamique afin de
+                    contribuer à des projets innovants et stimulants. Je
+                    souhaite apporter des solutions créatives aux défis
+                    complexes.Développeur Front End passionné avec 2 ans
+                    d'expérience dans la création d'applications avec l'ERP
+                    shuttle. Je souhaite rejoindre une équipe dynamique afin de
+                    contribuer à des projets innovants et stimulants. Je
+                    souhaite apporter des solutions créatives aux défis
+                    complexes. Développeur Front End passionné avec 2 ans
+                    d'expérience dans la création d'applications avec l'ERP
+                    shuttle. Je souhaite rejoindre une équipe dynamique afin de
+                    contribuer à des projets innovants et stimulants. Je
+                    souhaite apporter des solutions créatives aux défis
+                    complexes. Développeur Front End passionné avec 2 ans
+                    d'expérience dans la création d'applications avec l'ERP
+                    shuttle. Je souhaite rejoindre une équipe dynamique afin de
+                    contribuer à des projets innovants et stimulants. Je
+                    souhaite apporter des solutions créatives aux défis
+                    complexes.
                 </div>
             </div>
         </div>
