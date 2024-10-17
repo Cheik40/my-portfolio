@@ -1,7 +1,7 @@
 li {
     position: relative;
     list-style: none;
-    border: 1px solid rgb(21, 0, 255);
+    /* border: 1px solid rgb(21, 0, 255); */
     text-align: center;
     width: 147px;
     height: 46px;
@@ -13,5 +13,5 @@ a {
     height: 46px;
     color: #000000;
     text-align: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }

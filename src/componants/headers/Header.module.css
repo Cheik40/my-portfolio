@@ -8,15 +8,15 @@ header {
     width: 100%;
     height: 100px;
     z-index: 1000;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .logo {
-    border: 1px solid rgb(3, 58, 24);
+    /* border: 1px solid rgb(3, 58, 24); */
     position: absolute;
     color: #000;
     left: 70px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     text-decoration: none;
     font-family: Montserrat;
     font-weight: bold;

@@ -1,10 +1,10 @@
 // import React from "react";
-// import './Intro.css';
-// import emailIcon from "./images/email-icon.png";
-// import githubIcon from "./images/github-icon.png";
-// import linkedinIcon from "./images/linkedin-icon.png";
-// import profilePhoto from "./images/profile-photo.png";
-
+import "./Home.css";
+import emailIcon from "../../assets/mail.svg";
+import githubIcon from "../../assets/github.svg";
+import linkedinIcon from "../../assets/linkedin.svg";
+import profilePhoto from "../../assets/image.png";
+import "./Home.css";
 function Home() {
     return (
         <section className='intro'>
@@ -14,18 +14,18 @@ function Home() {
                 <p className='job-title'>Front-end Developer / UI Designer</p>
                 <div className='social-icons'>
                     <a href='#'>
-                        <img src='' alt='Email' />
+                        <img src={emailIcon} alt='Email' />
                     </a>
                     <a href='#'>
-                        <img src='' alt='GitHub' />
+                        <img src={githubIcon} alt='GitHub' />
                     </a>
                     <a href='#'>
-                        <img src='' alt='LinkedIn' />
+                        <img src={linkedinIcon} alt='LinkedIn' />
                     </a>
                 </div>
             </div>
             <div className='profile-image'>
-                <img src='' alt='Tomasz Gajda' />
+                <img src={profilePhoto} alt='Tomasz Gajda' />
             </div>
         </section>
     );
