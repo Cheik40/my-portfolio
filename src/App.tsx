@@ -2,7 +2,8 @@ import Headers from "./componants/headers/Headers";
 import About from "./pages/about/About";
 import Home from "./pages/home/Home";
 import Skills from "./pages/skills/Skills";
-// import Experiances from "./pages/experiances/Experiances";
+import Experiances from "./pages/experiances/Experiances";
+import Contact from "./pages/contact/Contact";
 
 function App() {
     return (
@@ -11,8 +12,8 @@ function App() {
             <Home />
             <About />
             <Skills />
-
-            {/* <Experiances /> */}
+            <Experiances />
+            <Contact />
         </>
     );
 }

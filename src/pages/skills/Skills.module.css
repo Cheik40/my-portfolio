@@ -1,13 +1,59 @@
 .skillsContain {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #d7d7d7;
-    border: 1px solid red;
+    /* border: 1px solid rgb(13, 13, 13); */
+}
+
+.titleH2 {
+    border: 3px solid #000;
+    padding: 0.5em 1.5em;
+    margin: 2em;
 }
 
 .skills {
-    /* position: relative; */
+    position: relative;
     max-width: 1000px;
-    border: 1px solid red;
+    /* border: 1px solid rgb(1, 1, 1); */
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    /* border: 1px solid #0c0094; */
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rowContainer {
+    margin: 5px;
+    /* border: 1px solid #029400; */
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    /* justify-content: center; */
+    /* margin: 20px; */
+    /* border: 1px solid red; */
+    flex-wrap: wrap;
+}
+
+.label {
+    padding: 20px;
+    /* width: 50px; */
+    /* border: 1px solid #029400; */
+}
+
+.col {
+    margin: 1em;
+    padding: 5px 0px;
+    /* border: 1px solid #029400; */
+    text-align: center;
+    width: 8em;
 }

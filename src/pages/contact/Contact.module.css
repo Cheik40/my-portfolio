@@ -1,0 +1,122 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #d7d7d7;
+    padding: 3em;
+    /* border: 1px solid red; */
+    /* height: 500px; */
+}
+
+.title {
+    border: 3px solid #000;
+    padding: 0.4em 1em;
+    animation-duration: 10s;
+    animation-name: slidein;
+}
+
+.containerExperience {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2em;
+}
+
+.description {
+    /* border: 3px solid #000; */
+    padding: 1em;
+}
+
+.reparate {
+    /* border: 3px solid #000; */
+    margin: 2em;
+}
+
+.message {
+    /* border: 3px solid #000; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35em;
+}
+
+.input {
+    /* border: 3px solid #000; */
+    position: relative;
+    padding: 0.5em;
+    width: 30em;
+}
+
+/* input {
+    position: relative;
+    width: 100%;
+    height: 3em;
+    padding: 0.5em;
+    border: 3px solid #000;
+    border-top: none;
+    border-right: none;
+    background-color: #d7d7d7;
+} */
+
+input {
+    border: 3px solid #000;
+    border-top: none;
+    border-right: none;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    background-color: #d7d7d7;
+    width: 100%;
+}
+
+input[type="text"]:focus {
+    border: 3px solid #000;
+    border-top: none;
+    border-right: none;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    background-color: #d7d7d7;
+}
+
+/* input[type="email"]:valid {
+    border-color: green;
+    background-color: #d7d7d7;
+} */
+
+textarea {
+    font-size: 1em;
+    border: 3px solid #000;
+    border-top: none;
+    border-right: none;
+    padding: 0.5em 1em;
+    background-color: #d7d7d7;
+    width: 100%;
+    height: 10em;
+}
+
+textarea[type="text"]:focus {
+    border: 3px solid #000;
+    border-top: none;
+    border-right: none;
+    font-size: 2em;
+    background-color: #d7d7d7;
+    resize: none;
+}
+
+@keyframes slidein {
+    from {
+        translate: 5vh 0;
+        scale: 100% 1;
+    }
+    50% {
+        translate: -5vh 0;
+        scale: 100% 1;
+    }
+
+    to {
+        translate: 1 1;
+        scale: 100% 1;
+    }
+}

@@ -1,14 +1,14 @@
 import "./NavItem.module.css";
 
 interface NavItemProps {
-    url: HTMLAnchorElement;
+    href: HTMLAnchorElement;
     label: string;
 }
 
-function NavItem({ url, label }: NavItemProps) {
+function NavItem({ href, label }: NavItemProps) {
     return (
         <li>
-            <a href={url}>{label}</a>
+            <a href={href}>{label}</a>
         </li>
     );
 }
