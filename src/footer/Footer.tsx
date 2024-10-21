@@ -17,6 +17,8 @@ function Footer() {
                     </a>
                 </div>
             </div>
+            <div className='email'>djilyhoo@gmail.com</div>
+            <div className='tel'>+33 7 52 55 82 97</div>
         </footer>
     );
 }
