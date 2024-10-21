@@ -1,7 +1,9 @@
-import githubIcon from "../../assets/github.svg";
+// import githubIcon from "../../assets/github.svg";
 import linkedinIcon from "../../assets/linkedin.svg";
 import backToUp from "../../assets/backToUp.svg";
 import styles from "./Footer.module.css";
+import { LiaGithubSquare, LiaLinkedin } from "react-icons/lia";
+// import { LiaLinkedin } from "react-icons/lia";
 
 function Footer() {
     return (
@@ -19,12 +21,14 @@ function Footer() {
             <div className={styles.socialLink}>
                 <div className={styles.Link}>
                     <a href='https://github.com/Cheik40'>
-                        <img src={githubIcon} alt='GitHub' />
+                        {/* <img src={githubIcon} alt='GitHub' /> */}
+                        <LiaGithubSquare size='100%' />
                     </a>
                 </div>
                 <div className={styles.Link}>
                     <a href='https://fr.linkedin.com/in/cheikh-ndiaye-870513196?trk=public_profile_browsemap_profile-result-card_result-card_full-click'>
-                        <img src={linkedinIcon} alt='LinkedIn' />
+                        {/* <img src={linkedinIcon} alt='LinkedIn' /> */}
+                        <LiaLinkedin size='100%' />
                     </a>
                 </div>
             </div>
