@@ -1,11 +1,18 @@
 import githubIcon from "../assets/github.svg";
 import linkedinIcon from "../assets/linkedin.svg";
+import backToUp from "../assets/backToUp.svg";
+import styles from "./Footer.module.css";
 
 function Footer() {
     return (
-        <footer>
-            <div className='home'>Revenir en haut</div>
-            <div className='socialLink'>
+        <footer className={styles.container}>
+            <div className={styles.home}>
+                <a href='#home'>
+                    <img src={backToUp} alt='image back to up' />
+                </a>
+                Revenir en haut
+            </div>
+            <div className={styles.socialLink}>
                 <div className='git'>
                     <a href='https://github.com/Cheik40'>
                         <img src={githubIcon} alt='GitHub' />
@@ -17,8 +24,8 @@ function Footer() {
                     </a>
                 </div>
             </div>
-            <div className='email'>djilyhoo@gmail.com</div>
-            <div className='tel'>+33 7 52 55 82 97</div>
+            <div className={styles.email}>djilyhoo@gmail.com</div>
+            <div className={styles.tel}>+33 7 52 55 82 97</div>
         </footer>
     );
 }
