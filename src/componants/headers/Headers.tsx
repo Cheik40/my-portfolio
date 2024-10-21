@@ -4,7 +4,7 @@ import styles from "./Header.module.css";
 
 function Headers() {
     return (
-        <header>
+        <header id='home'>
             <div className={styles.logo}>Cheikh NDIAYE</div>
             <Navbar />
         </header>
