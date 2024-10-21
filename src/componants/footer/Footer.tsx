@@ -1,5 +1,5 @@
 // import githubIcon from "../../assets/github.svg";
-import linkedinIcon from "../../assets/linkedin.svg";
+// import linkedinIcon from "../../assets/linkedin.svg";
 import backToUp from "../../assets/backToUp.svg";
 import styles from "./Footer.module.css";
 import { LiaGithubSquare, LiaLinkedin } from "react-icons/lia";
