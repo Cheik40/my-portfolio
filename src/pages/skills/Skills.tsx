@@ -58,9 +58,7 @@ function Skills() {
                                 />
                                 <h4>JAVASCRIPT</h4>
                             </div>
-                            {/* </div> */}
 
-                            {/* <div className={styles.row}> */}
                             <div className={styles.col}>
                                 <img
                                     className={styles.sass}
@@ -93,9 +91,7 @@ function Skills() {
                                 />
                                 <h3>GIT</h3>
                             </div>
-                            {/* </div> */}
 
-                            {/* <div className={styles.row}> */}
                             <div className={styles.col}>
                                 <img
                                     className={styles.nodejs}
