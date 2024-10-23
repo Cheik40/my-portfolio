@@ -16,7 +16,10 @@ import mysql from "../../assets/mysql.svg";
 
 function Skills() {
     return (
-        <div id='skills' className={styles.skillsContain}>
+        <div
+            id='skills'
+            className={`${styles.skillsContain} ${styles.skillsMain}`}
+        >
             <h2 className={styles.titleH2}>Compétences</h2>
             <div className={styles.skills}>
                 <div className={styles.container}>
@@ -24,58 +27,105 @@ function Skills() {
                         <h3 className={styles.label}>Using NOW:</h3>
                         <div className={styles.row}>
                             <div className={styles.col}>
-                                <img src={html} alt='logo HTML' />
+                                <img
+                                    className={styles.html}
+                                    src={html}
+                                    alt='logo HTML'
+                                />
                                 <h4>HTML</h4>
                             </div>
                             <div className={styles.col}>
-                                <img src={css} alt='logo css' />
+                                <img
+                                    className={styles.css}
+                                    src={css}
+                                    alt='logo css'
+                                />
                                 <h3>CSS3</h3>
                             </div>
                             <div className={styles.col}>
-                                <img src={react} alt='logo react' />
-
+                                <img
+                                    className={styles.react}
+                                    src={react}
+                                    alt='logo react'
+                                />
                                 <h3>REACT</h3>
                             </div>
                             <div className={styles.col}>
-                                <img src={javascript} alt='logo javascript' />
+                                <img
+                                    className={styles.javascript}
+                                    src={javascript}
+                                    alt='logo javascript'
+                                />
                                 <h4>JAVASCRIPT</h4>
                             </div>
-                        </div>
+                            {/* </div> */}
 
-                        <div className={styles.row}>
+                            {/* <div className={styles.row}> */}
                             <div className={styles.col}>
-                                <img src={sass} alt='logo sass' />
+                                <img
+                                    className={styles.sass}
+                                    src={sass}
+                                    alt='logo sass'
+                                />
                                 <h3>SASS</h3>
                             </div>
                             <div className={styles.col}>
-                                <img src={bootstrap} alt='logo bootstrap' />
+                                <img
+                                    className={styles.bootstrap}
+                                    src={bootstrap}
+                                    alt='logo bootstrap'
+                                />
                                 <h3>BOOTSTRAP</h3>
                             </div>
                             <div className={styles.col}>
-                                <img src={figma} alt='logo figma' />
+                                <img
+                                    className={styles.figma}
+                                    src={figma}
+                                    alt='logo figma'
+                                />
                                 <h3>FIGMA</h3>
                             </div>
                             <div className={styles.col}>
-                                <img src={git} alt='logo git' />
+                                <img
+                                    className={styles.git}
+                                    src={git}
+                                    alt='logo git'
+                                />
                                 <h3>GIT</h3>
                             </div>
-                        </div>
+                            {/* </div> */}
 
-                        <div className={styles.row}>
+                            {/* <div className={styles.row}> */}
                             <div className={styles.col}>
-                                <img src={nodejs} alt='logo nodejs' />
+                                <img
+                                    className={styles.nodejs}
+                                    src={nodejs}
+                                    alt='logo nodejs'
+                                />
                                 <h3>NODEJS</h3>
                             </div>
                             <div className={styles.col}>
-                                <img src={mongo} alt='logo mongobd' />
+                                <img
+                                    className={styles.mongo}
+                                    src={mongo}
+                                    alt='logo mongobd'
+                                />
                                 <h3>MONGOBD</h3>
                             </div>
                             <div className={styles.col}>
-                                <img src={typescript} alt='Logo typesvript' />
+                                <img
+                                    className={styles.typescript}
+                                    src={typescript}
+                                    alt='Logo typesvript'
+                                />
                                 <h3>TYPESCRIPT</h3>
                             </div>
                             <div className={styles.col}>
-                                <img src={mysql} alt='logo mysql' />
+                                <img
+                                    className={styles.mysql}
+                                    src={mysql}
+                                    alt='logo mysql'
+                                />
                                 <h3>MYSQL</h3>
                             </div>
                         </div>

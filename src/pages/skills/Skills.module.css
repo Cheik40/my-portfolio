@@ -4,7 +4,8 @@
     justify-content: center;
     align-items: center;
     background-color: #d7d7d7;
-    /* border: 1px solid rgb(13, 13, 13); */
+    /* border: 3px solid #000; */
+    width: 100%;
 }
 
 .titleH2 {
@@ -14,15 +15,11 @@
 }
 
 .skills {
-    position: relative;
-    max-width: 1000px;
-    /* border: 1px solid rgb(1, 1, 1); */
-    display: flex;
-    flex-direction: column;
+    max-width: 684px;
+    /* border: 1px solid #000; */
 }
 
 .container {
-    /* border: 1px solid #0c0094; */
     margin: 5px;
     display: flex;
     justify-content: center;
@@ -30,30 +27,66 @@
 }
 
 .rowContainer {
-    margin: 5px;
-    /* border: 1px solid #029400; */
     display: flex;
     flex-direction: column;
 }
 
 .row {
     display: flex;
-    /* justify-content: center; */
-    /* margin: 20px; */
-    /* border: 1px solid red; */
     flex-wrap: wrap;
+    row-gap: 3em;
+    column-gap: 1.9em;
 }
 
 .label {
     padding: 20px;
-    /* width: 50px; */
-    /* border: 1px solid #029400; */
 }
 
 .col {
-    margin: 1em;
-    padding: 5px 0px;
-    /* border: 1px solid #029400; */
+    margin: auto;
+    /* padding: 5px 0px; */
     text-align: center;
-    width: 8em;
+    width: 9em;
+    /* border: 1px solid #000; */
+    /* gap: 13em; */
+}
+
+.html,
+.css,
+.nodejs {
+    width: 84px;
+    height: 100px;
+}
+
+.react {
+    width: 105.8px;
+    height: 100px;
+}
+
+.javascript,
+.git,
+.bootstrap {
+    width: 96.24px;
+    height: 100px;
+}
+
+.sass,
+.figma {
+    width: 126.62px;
+    height: 100px;
+}
+
+.mongo {
+    width: 41.62px;
+    height: 97.36px;
+}
+
+.typescript {
+    width: 100px;
+    height: 100px;
+}
+
+.mysql {
+    width: 102.98px;
+    height: 100px;
 }
