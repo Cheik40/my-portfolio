@@ -11,43 +11,39 @@
 .home {
     margin: 0.5em;
 }
+
 .socialLink {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0.5em;
-    /* border: 1px solid red; */
-    /* width: 400px; */
     gap: 1em;
 }
 
 .email {
     font-size: 1.5em;
     margin: 0.5em;
+    font-size: 1.5em;
 }
 
 .tel {
     font-size: 1.5em;
     margin: 0.5em;
+    font-size: 1.5em;
 }
 
 .backToUp {
+    transform: scale(1);
     width: 2em;
-
-    /* animation-name: slidein; */
 }
 
 .backToUp:hover {
     transform: translate(0%, -50%);
     transition-duration: 0.8s;
     transition-timing-function: linear;
-    /* animation-iteration-count: infinite; */
-    /* animation-name: slidein; */
 }
 
 .Link {
     display: flex;
-    width: 3em;
-    /* border: 1px solid green; */
-    /* margin-right: 1em; */
+    width: 4em;
+    height: 4em;
 }
