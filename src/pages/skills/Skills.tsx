@@ -12,7 +12,6 @@ import css from "../../assets/css.svg";
 import mongo from "../../assets/mongo.svg";
 import typescript from "../../assets/typescript.svg";
 import mysql from "../../assets/mysql.svg";
-// import css from "../../assets/css.svg";
 
 function Skills() {
     return (
@@ -177,16 +176,16 @@ function Skills() {
                             <div className={styles.col}>
                                 <img src={mail} alt='mail' />
                                 <h3>HTML</h3>
-                            </div>
-                            <div className={styles.col}>
+                                {/* </div> */}
+                                {/* <div className={styles.col}> */}
                                 <img src={mail} alt='mail' />
                                 <h3>HTML</h3>
-                            </div>
-                            <div className={styles.col}>
+                                {/* </div> */}
+                                {/* <div className={styles.col}> */}
                                 <img src={mail} alt='mail' />
                                 <h3>HTML</h3>
-                            </div>
-                            <div className={styles.col}>
+                                {/* </div> */}
+                                {/* <div className={styles.col}> */}
                                 <img src={mail} alt='mail' />
                                 <h3>HTML</h3>
                             </div>
