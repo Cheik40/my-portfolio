@@ -1,5 +1,6 @@
 import styles from "./Skills.module.css";
 import mail from "../../assets/mail.svg";
+import { FaReact } from "react-icons/fa";
 
 function Skills() {
     return (
@@ -11,7 +12,8 @@ function Skills() {
                         <h3 className={styles.label}>Using NOW:</h3>
                         <div className={styles.row}>
                             <div className={styles.col}>
-                                <img src={mail} alt='mail' />
+                                {/* <img src={mail} alt='mail' /> */}
+                                <FaReact />
                                 <h3>REACT</h3>
                             </div>
 
