@@ -1,17 +1,45 @@
 import Button from "../ui/Button";
-// import NavItem from "./navitem/NavItem";
-// import NavList from "./navlist/NavList";
 import "./Navbar.module.css";
+import styles from "./Navbar.module.css";
 import NavItem from "./navitem/NavItem";
 import NavList from "./navlist/NavList";
 
+type NavigationItemTypes = {
+    id: number;
+    href: string;
+    label: string;
+};
+
+const navigations: NavigationItemTypes[] = [
+    {
+        id: 1,
+        href: "#about",
+        label: "A-propos",
+    },
+    {
+        id: 2,
+        href: "#skills",
+        label: "Compétences",
+    },
+    {
+        id: 3,
+        href: "#experiences",
+        label: "Expériences",
+    },
+];
+
 function Navbar() {
     return (
-        <nav>
+        <nav className={`${styles.nav} `}>
             <NavList>
-                <NavItem href='#about' label='A-propos' />
-                <NavItem href='#skills' label='Compétences' />
-                <NavItem href='#experiences' label='Expériences' />
+                {navigations.map((navigation) => {
+                    return (
+                        <NavItem
+                            href={navigation.href}
+                            label={navigation.label}
+                        />
+                    );
+                })}
                 <Button onClick={() => true} label='Contactez moi' />
             </NavList>
         </nav>

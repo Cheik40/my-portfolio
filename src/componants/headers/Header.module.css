@@ -1,4 +1,4 @@
-header {
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -10,15 +10,28 @@ header {
     position: relative;
     color: #000;
     margin: 2em;
-    border: 1px solid black;
     text-decoration: none;
     font-family: Montserrat;
     font-weight: bold;
     text-align: center;
+    font-size: 1em;
 }
 
-@media only screen and (max-width: 1020px) {
-    header {
-        display: none;
+.buttun {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+@media only screen and (max-width: 1046px) {
+    .buttun {
+        display: flex;
+    }
+
+    .hidden {
+        display: flex;
+        margin: 0em 2em;
     }
 }
