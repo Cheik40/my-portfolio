@@ -1,9 +1,4 @@
 ul {
     display: flex;
-    position: absolute;
-    width: 637px;
-    height: 46px;
-    top: 74px;
-    left: 800px;
-    /* border: 1px solid red; */
+    gap: 1em;
 }
