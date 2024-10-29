@@ -1,31 +1,50 @@
 import Button from "../ui/Button";
-// import NavItem from "./navitem/NavItem";
-// import NavList from "./navlist/NavList";
 import "./Navbar.module.css";
+import styles from "./Navbar.module.css";
+import NavItem from "./navitem/NavItem";
+import NavList from "./navlist/NavList";
 
-function Navbar() {
+type NavigationItemTypes = {
+    id: number;
+    href: string;
+    label: string;
+};
+
+const navigations: NavigationItemTypes[] = [
+    {
+        id: 1,
+        href: "#about",
+        label: "A-propos",
+    },
+    {
+        id: 2,
+        href: "#skills",
+        label: "Compétences",
+    },
+    {
+        id: 3,
+        href: "#experiences",
+        label: "Expériences",
+    },
+];
+
+function Navbar({ isOpen }: { isOpen: boolean }) {
     return (
-        // <NavList>
-        //     <NavItem href={`#Abou`} label='A-propos' />
-        //     <NavItem href='#skills' label='Compétences' />
-        //     <NavItem href='#experiences' label='Expériences' />
-        // </NavList>
-
-        <nav>
-            <ul>
-                <li>
-                    <a href='#about'>A-propos</a>
-                </li>
-                <li>
-                    <a href='#skills'>Compétences</a>
-                </li>
-                <li>
-                    <a href='#experiences'>Expériences</a>
-                </li>
-                <li>
-                    <Button onClick={() => true} label='Contactez moi' />
-                </li>
-            </ul>
+        <nav className={`${styles.nav} ${isOpen ? styles.isOpen : ""}`}>
+            <NavList>
+                {navigations.map((navigation) => {
+                    return (
+                        <NavItem
+                            href={navigation.href}
+                            label={navigation.label}
+                        />
+                    );
+                })}
+                <Button
+                    onClick={() => <a href='exeriences'>Exerience</a>}
+                    label='Contactez moi'
+                />
+            </NavList>
         </nav>
     );
 }

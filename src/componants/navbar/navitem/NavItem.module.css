@@ -1,17 +1,16 @@
 li {
-    position: relative;
-    list-style: none;
-    /* border: 1px solid rgb(21, 0, 255); */
-    text-align: center;
-    width: 147px;
-    height: 46px;
+    list-style-type: none;
+    margin: auto;
 }
 
 a {
-    position: relative;
-    width: 147px;
-    height: 46px;
-    color: #000000;
+    color: #fff;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: bold;
     text-align: center;
-    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5em;
 }

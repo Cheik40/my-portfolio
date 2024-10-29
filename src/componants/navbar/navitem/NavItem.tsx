@@ -1,16 +1,16 @@
 import "./NavItem.module.css";
 
-// interface NavItemProps {
-//     href: HTMLAnchorElement;
-//     label: string;
-// }
+interface NavItemProps {
+    href: string;
+    label: string;
+}
 
-// function NavItem({ href, label }: NavItemProps) {
-//     return (
-//         <li>
-//             <a href={href}>{label}</a>
-//         </li>
-//     );
-// }
+function NavItem({ href, label }: NavItemProps) {
+    return (
+        <li>
+            <a href={href}>{label}</a>
+        </li>
+    );
+}
 
-// export default NavItem;
+export default NavItem;
