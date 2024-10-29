@@ -12,20 +12,20 @@ function Headers() {
     return (
         <header id='home' className={styles.header}>
             <div className={styles.logo}>Cheikh NDIAYE</div>
-            <Navbar />
+            <Navbar isOpen={isOpen} />
             {isOpen ? (
+                <MdClose
+                    onClick={() => setIsOpen(!isOpen)}
+                    className={styles.isOpen}
+                    style={{ color: "gray" }}
+                    size={40}
+                />
+            ) : (
                 <ImMenu
                     onClick={() => setIsOpen(!isOpen)}
                     style={{ color: "gray" }}
                     size={40}
-                    className={styles.hidden}
-                />
-            ) : (
-                <MdClose
-                    onClick={() => setIsOpen(!isOpen)}
-                    className={styles.hidden}
-                    style={{ color: "gray" }}
-                    size={40}
+                    className={styles.isOpen}
                 />
             )}
         </header>

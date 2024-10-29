@@ -28,9 +28,9 @@ const navigations: NavigationItemTypes[] = [
     },
 ];
 
-function Navbar() {
+function Navbar({ isOpen }: { isOpen: boolean }) {
     return (
-        <nav className={`${styles.nav} `}>
+        <nav className={`${styles.nav} ${isOpen ? styles.isOpen : ""}`}>
             <NavList>
                 {navigations.map((navigation) => {
                     return (
@@ -40,7 +40,10 @@ function Navbar() {
                         />
                     );
                 })}
-                <Button onClick={() => true} label='Contactez moi' />
+                <Button
+                    onClick={() => <a href='exeriences'>Exerience</a>}
+                    label='Contactez moi'
+                />
             </NavList>
         </nav>
     );

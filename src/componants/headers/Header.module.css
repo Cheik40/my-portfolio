@@ -3,7 +3,6 @@
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
-    border: 1px solid red;
 }
 
 .logo {
@@ -21,17 +20,24 @@
     display: none;
 }
 
-.hidden {
+.isOpen {
     display: none;
 }
 
 @media only screen and (max-width: 1046px) {
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 1000;
+    }
+
     .buttun {
         display: flex;
     }
 
-    .hidden {
+    .isOpen {
         display: flex;
-        margin: 0em 2em;
+        margin: 0 2em;
     }
 }
