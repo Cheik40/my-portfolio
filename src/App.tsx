@@ -3,7 +3,7 @@ import About from "./pages/about/About";
 import Home from "./pages/home/Home";
 import Skills from "./pages/skills/Skills";
 // import Experiances from "./pages/experiances/Experiances";
-// import Contact from "./pages/contact/Contact";
+import Contact from "./pages/contact/Contact";
 // import Footer from "./componants/footer/Footer";
 
 function App() {
@@ -11,10 +11,10 @@ function App() {
         <>
             <Headers />
             <Home />
-            <About />
+            {/* <About /> */}
             <Skills />
             {/* <Experiances /> */}
-            {/* <Contact /> */}
+            <Contact />
             {/* <Footer /> */}
         </>
     );
