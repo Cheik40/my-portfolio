@@ -6,10 +6,11 @@
     align-items: center;
     height: 100vh;
     padding-top: 50px;
+    /* border: 1px solid red; */
 }
 
 .about1 {
-    width: 200px;
+    min-width: 200px;
     height: 60px;
     border: 3px solid #000;
     display: flex;
@@ -20,43 +21,97 @@
 .description {
     margin-top: 50px;
     position: relative;
-    width: 570px;
+    max-width: 570px;
+    padding: 1em;
+    text-align: justify;
 }
 
 .reparate {
     position: relative;
-    width: 170px;
-    height: 12px;
-    margin-top: 30px;
+    margin-top: 3em;
 }
 
 .details {
     position: relative;
-    width: 1066px;
-    height: 253px;
-    margin-top: 40px;
+    width: 950px;
+    max-width: 1046px;
+    height: 233px;
+    margin-top: 3em;
+    text-align: justify;
 }
 
 .spec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: absolute;
-    width: 516px;
-    height: 177px;
-    left: 40px;
-    top: 67px;
+    max-width: 100%;
+    width: 50%;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .dev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: absolute;
-    width: 516px;
-    height: 177px;
-    left: 640px;
-    top: 67px;
+    max-width: 100%;
+    width: 50%;
+    right: 0;
+    text-align: justify;
 }
 
 .maintenance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: absolute;
-    width: 516px;
-    height: 177px;
-    left: 300px;
-    top: 200px;
+    max-width: 100%;
+    width: 50%;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    min-width: 400px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 1046px) {
+    .details {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        max-width: 570px;
+        width: 100%;
+        min-height: 230px;
+    }
+
+    .spec {
+        position: static;
+        width: 100%;
+        text-align: center;
+    }
+
+    .dev {
+        position: static;
+        width: 100%;
+        text-align: center;
+    }
+
+    .maintenance {
+        position: static;
+        width: 100%;
+        bottom: 0%;
+        left: 0;
+        transform: translate(0%, 0%);
+        text-align: center;
+    }
 }
