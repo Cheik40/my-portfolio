@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 1000;
+    /* z-index: 1000; */
 }
 
 .logo {
@@ -30,6 +30,10 @@
         align-items: center;
         justify-content: space-between;
         z-index: 1000;
+    }
+
+    .logo {
+        color: #fff;
     }
 
     .buttun {

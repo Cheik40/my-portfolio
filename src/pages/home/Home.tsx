@@ -10,11 +10,8 @@ function Home() {
     return (
         <section className={styles.intro}>
             <div className={styles.introText}>
-                {/* <p>Hi, I am</p> */}
                 <h1 className={styles.titleH1}>Cheikh NDIAYE</h1>
-                <p className={styles.jobTitle}>
-                    Developer Front-end / UI Designer
-                </p>
+                <p className={styles.jobTitle}>Developer Front-end</p>
                 <div className={styles.socialIcons}>
                     <a href='mailto:djilyhoo@gmail.com'>
                         <img src={emailIcon} alt='Email' />

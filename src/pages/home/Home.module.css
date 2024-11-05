@@ -1,23 +1,23 @@
 .intro {
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid red; */
     width: 100%;
     height: 100%;
+    z-index: 2000;
 }
 
 .introText {
+    margin: 3em;
     display: flex;
     flex-direction: column;
-    /* border: 1px solid red; */
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .titleH1 {
+    display: flex;
     position: relative;
-    /* width: 532px;
-    height: 105px; */
-    left: 70px;
-    top: 150px;
+    top: 130px;
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
@@ -27,63 +27,36 @@
     color: #000000;
     animation-duration: 5s;
     animation-name: slidein;
-    /* border: 1px solid red; */
+    padding: 10px;
 }
 
 .jobTitle {
-    /* Front-end Developer / UI Designer */
-
+    display: flex;
     position: relative;
-    /* width: 426px; */
-    /* height: 40px; */
-    left: 0px;
-    top: 170px;
     font-family: "Raleway";
     font-style: normal;
     font-weight: 800;
     font-size: 25px;
     line-height: 29px;
-    text-align: center;
+    text-align: left;
     color: #919191;
+    padding: 5em 10px;
 }
 
 .socialIcons {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 300px;
-    /* border: 1px solid green; */
-    left: 70px;
-    width: 300px;
-    height: 70px;
-    gap: 20px;
+    bottom: 3em;
 }
 
 .socialIcons a {
-    position: inherit;
+    display: flex;
     width: 60px;
     height: 60px;
     background: #c4c4c4;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transform: scale(1);
-}
-
-.socialIcons a::before,
-.socialIcons a::after {
-    content: "";
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    background-color: #921b1b;
-    border-radius: 50%;
-    top: 0;
-    left: 0;
-    animation: moveAround 4s ease infinite;
-}
-
-.socialIcons a::after {
-    background-color: #000;
-    animation: moveAroundreverse 10s linear infinite;
 }
 
 .socialIcons a img:hover {
@@ -93,11 +66,11 @@
 }
 
 .profileImage img {
-    display: block;
-    position: relative;
-    width: auto;
-    height: 600px;
-    margin: 0px 100px;
+    display: flex;
+    height: 88vh;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
     animation-duration: 5s;
     animation-name: slidein;
 }
@@ -165,5 +138,123 @@
         top: 0;
         left: 0;
         transform: translate(0, 0);
+    }
+}
+
+@media only screen and (max-width: 1046px) {
+    .intro {
+        display: flex;
+        /* border: 1px solid #921b1b; */
+        box-sizing: border-box;
+        background-color: transparent;
+        background-image: linear-gradient(-15deg, #d7d7d7 35%, #000000 0%);
+
+        background-image: url("../../assets/djily.png");
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: contain;
+    }
+
+    .introText {
+        background-image: linear-gradient(-15deg, #d7d7d7 35%, #000000 0%);
+
+        position: static;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        min-width: 100%;
+        height: 88vh;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        background-image: linear-gradient(
+            -15deg,
+            rgba(10, 10, 10, 0.5) 38.7%,
+            rgba(0, 0, 0, 0) 0%
+        );
+    }
+
+    .titleH1 {
+        display: flex;
+        position: relative;
+        top: 80%;
+        left: -20%;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2em;
+        line-height: 30px;
+        text-align: center;
+        color: #fff;
+        animation-duration: 0s;
+        padding: 0px;
+    }
+
+    .jobTitle {
+        display: flex;
+        position: relative;
+        top: 50%;
+        left: -20%;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 1em;
+        line-height: 40px;
+        text-align: left;
+        color: #fff;
+        padding: 0em 0px;
+        margin: 0em;
+    }
+
+    .socialIcons {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        bottom: 0em;
+    }
+
+    .socialIcons {
+        margin: 0em;
+        padding: 0;
+        background: transparent;
+    }
+    .socialIcons a {
+        display: flex;
+        position: static;
+        background: transparent;
+        box-shadow: 0px 0px 0px;
+        transform: scale(1);
+        padding: 0;
+        width: 40px;
+        height: 40px;
+    }
+
+    .socialIcons a img {
+        display: flex;
+        position: static;
+        transform: scale(1);
+    }
+
+    .socialIcons a img:hover {
+        display: flex;
+        position: static;
+        transform: scale(1.2);
+        transition-duration: 0.2s;
+        transition-timing-function: linear;
+    }
+
+    .profileImage {
+        display: none;
+    }
+
+    .buttun {
+        display: flex;
+    }
+
+    .isOpen {
+        display: flex;
+        margin: 0 2em;
     }
 }

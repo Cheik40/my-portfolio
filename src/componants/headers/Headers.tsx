@@ -7,7 +7,7 @@ import { ImMenu } from "react-icons/im";
 import { MdClose } from "react-icons/md";
 
 function Headers() {
-    const [isOpen, setIsOpen] = useState(true);
+    const [isOpen, setIsOpen] = useState(false);
 
     return (
         <header id='home' className={styles.header}>

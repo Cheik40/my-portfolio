@@ -11,11 +11,11 @@ function App() {
         <>
             <Headers />
             <Home />
-            <About />
-            <Skills />
-            <Experiances />
-            <Contact />
-            <Footer />
+            {/* <About /> */}
+            {/* <Skills /> */}
+            {/* <Experiances /> */}
+            {/* <Contact /> */}
+            {/* <Footer /> */}
         </>
     );
 }
