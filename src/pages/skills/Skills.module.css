@@ -44,7 +44,7 @@
     flex-wrap: wrap;
     margin-bottom: 3em;
     row-gap: 3em;
-    column-gap: 1.9em;
+    column-gap: 2.9em;
 }
 
 .label {
@@ -94,4 +94,13 @@
 .mysql {
     width: 102.98px;
     height: 100px;
+}
+
+@media only screen and (max-width: 1046px) {
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 2.9em;
+    }
 }
