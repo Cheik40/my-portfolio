@@ -1,5 +1,5 @@
 import styles from "./Skills.module.css";
-import mail from "../../assets/mail.svg";
+// import mail from "../../assets/mail.svg";
 import react from "../../assets/react.svg";
 import html from "../../assets/htlm.svg";
 import javascript from "../../assets/javascript.svg";
@@ -12,6 +12,8 @@ import css from "../../assets/css.svg";
 import mongo from "../../assets/mongo.svg";
 import typescript from "../../assets/typescript.svg";
 import mysql from "../../assets/mysql.svg";
+import java from "../../assets/java-seeklogo.svg";
+import python from "../../assets/python-svgrepo-com-3.svg";
 
 function Skills() {
     return (
@@ -111,7 +113,7 @@ function Skills() {
                                 <img
                                     className={styles.typescript}
                                     src={typescript}
-                                    alt='Logo typesvript'
+                                    alt='Logo typescript'
                                 />
                                 <h3>TYPESCRIPT</h3>
                             </div>
@@ -129,38 +131,14 @@ function Skills() {
 
                 <div className={styles.container}>
                     <div className={styles.rowContainer}>
-                        <h3 className={styles.label}>Learning :</h3>
-                        <div className={styles.row}>
-                            <div className={styles.col}>
-                                <img src={mail} alt='mail' />
-                                <h3>Python</h3>
-                            </div>
-                            <div className={styles.col}>
-                                <img src={mail} alt='mail' />
-                                <h3>Keras</h3>
-                            </div>
-                            <div className={styles.col}>
-                                <img src={mail} alt='mail' />
-                                <h3>HTML</h3>
-                            </div>
-                            <div className={styles.col}>
-                                <img src={mail} alt='mail' />
-                                <h3>HTML</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className={styles.container}>
-                    <div className={styles.rowContainer}>
                         <h3 className={styles.label}>Other skills:</h3>
                         <div className={styles.row}>
                             <div className={styles.col}>
-                                <img src={mail} alt='mail' />
+                                <img src={java} alt='java' />
                                 <h3>JAVA</h3>
                             </div>
                             <div className={styles.col}>
-                                <img src={mail} alt='mail' />
+                                <img src={python} alt='python' />
                                 <h3>PYTHON</h3>
                             </div>
                         </div>
