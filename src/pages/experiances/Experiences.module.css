@@ -1,3 +1,38 @@
 .experiences {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     background-color: #d7d7d7;
+}
+
+.title {
+    border: 3px solid #000;
+    padding: 0.4em 1em;
+    margin: 2em 0em;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: auto;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+}
+
+.card {
+    padding: 20px;
+    height: auto;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 1046px) {
+    .container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        flex-wrap: wrap;
+        padding: 0;
+    }
 }
