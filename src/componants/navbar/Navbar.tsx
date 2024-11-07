@@ -1,4 +1,4 @@
-import Button from "../ui/Button";
+// import Button from "../ui/Button";
 import "./Navbar.module.css";
 import styles from "./Navbar.module.css";
 import NavItem from "./navitem/NavItem";
@@ -26,6 +26,11 @@ const navigations: NavigationItemTypes[] = [
         href: "#experiences",
         label: "Expériences",
     },
+    {
+        id: 4,
+        href: "#contact",
+        label: "Contactez moi",
+    },
 ];
 
 function Navbar({ isOpen }: { isOpen: boolean }) {
@@ -40,10 +45,10 @@ function Navbar({ isOpen }: { isOpen: boolean }) {
                         />
                     );
                 })}
-                <Button
+                {/* <Button
                     onClick={() => <a href='exeriences'>Exerience</a>}
                     label='Contactez moi'
-                />
+                /> */}
             </NavList>
         </nav>
     );
