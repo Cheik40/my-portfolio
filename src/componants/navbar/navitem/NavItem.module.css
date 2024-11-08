@@ -14,3 +14,10 @@ a {
     justify-content: center;
     margin: 0.5em;
 }
+
+.active {
+    /* Style quand l'élément est actif */
+    text-decoration: underline;
+    font-weight: bold;
+    color: #ff5733; /* Exemple de couleur */
+}
