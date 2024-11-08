@@ -1,7 +1,7 @@
 // import React from "react";
-import emailIcon from "../../assets/mail.svg";
-import githubIcon from "../../assets/github.svg";
-import linkedinIcon from "../../assets/linkedin.svg";
+import emailIcon from "../../assets/VectorAt.svg";
+import githubIcon from "../../assets/VectorGithub.svg";
+import linkedinIcon from "../../assets/Vector.png";
 import profilePhoto from "../../assets/djily.png";
 import styles from "./Home.module.css";
 import "./Home.module.css";
@@ -34,7 +34,7 @@ function Home() {
                 </div>
             </div>
             <div className={styles.profileImage}>
-                <img src={profilePhoto} alt='Tomasz Gajda' />
+                <img src={profilePhoto} alt='Cheikh Ndiaye' />
             </div>
         </section>
     );
