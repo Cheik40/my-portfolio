@@ -13,7 +13,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0.5em;
+    padding: 0.5em 1em;
 }
 
 a:hover {
