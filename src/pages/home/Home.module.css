@@ -152,6 +152,11 @@
     }
 }
 
+.smallScreen {
+    position: static;
+    display: none;
+}
+
 @media only screen and (max-width: 1046px) {
     .intro {
         display: flex;
@@ -162,6 +167,10 @@
         background-repeat: no-repeat;
         background-position: right center;
         background-size: contain;
+    }
+
+    .smallScreen {
+        display: none;
     }
 
     .introText {
@@ -276,5 +285,10 @@
     .isOpen {
         display: flex;
         margin: 0 2em;
+    }
+
+    .desktop {
+        position: static;
+        display: none;
     }
 }
