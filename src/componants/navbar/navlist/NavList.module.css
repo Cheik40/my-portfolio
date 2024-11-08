@@ -1,6 +1,5 @@
 ul {
     display: flex;
-    /* gap: 1em; */
 }
 
 @media only screen and (max-width: 1046px) {
