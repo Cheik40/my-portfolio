@@ -22,3 +22,9 @@ a:hover {
     transition: background-color 1s ease-out;
     border-radius: 20px;
 }
+
+@media only screen and (max-width: 1046px) {
+    a:hover {
+        border-radius: 0px;
+    }
+}
