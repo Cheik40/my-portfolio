@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Navbar from "../navbar/Navbar";
-// import Button from "../ui/Button";
 import "./Header.module.css";
 import styles from "./Header.module.css";
 import { ImMenu } from "react-icons/im";
@@ -8,22 +7,26 @@ import { MdClose } from "react-icons/md";
 
 function Headers() {
     const [isOpen, setIsOpen] = useState(false);
+    const handleOpen = () => {
+        // setIsOpen(isOpen);
+        setIsOpen((prevIsOpen) => !prevIsOpen);
+    };
 
     return (
         <header id='home' className={styles.header}>
             <div className={styles.logo}>Cheikh NDIAYE</div>
-            <Navbar isOpen={isOpen} />
+            <Navbar isOpen={isOpen} setIsOpen={setIsOpen} />
             {isOpen ? (
                 <MdClose
-                    onClick={() => setIsOpen(!isOpen)}
+                    onClick={handleOpen}
                     className={styles.isOpen}
-                    style={{ color: "gray" }}
+                    style={{ color: "gray", cursor: "pointer" }}
                     size={40}
                 />
             ) : (
                 <ImMenu
-                    onClick={() => setIsOpen(!isOpen)}
-                    style={{ color: "gray" }}
+                    onClick={handleOpen}
+                    style={{ color: "gray", cursor: "pointer" }}
                     size={40}
                     className={styles.isOpen}
                 />
