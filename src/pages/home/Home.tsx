@@ -13,13 +13,22 @@ function Home() {
                 <h1 className={styles.titleH1}>Cheikh NDIAYE</h1>
                 <p className={styles.jobTitle}>Developer Front-end</p>
                 <div className={styles.socialIcons}>
-                    <a href='mailto:djilyhoo@gmail.com'>
+                    <a
+                        className={styles.socialLink}
+                        href='mailto:djilyhoo@gmail.com'
+                    >
                         <img src={emailIcon} alt='Email' />
                     </a>
-                    <a href='https://github.com/Cheik40'>
+                    <a
+                        className={styles.socialLink}
+                        href='https://github.com/Cheik40'
+                    >
                         <img src={githubIcon} alt='GitHub' />
                     </a>
-                    <a href='https://fr.linkedin.com/in/cheikh-ndiaye-870513196?trk=public_profile_browsemap_profile-result-card_result-card_full-click'>
+                    <a
+                        className={styles.socialLink}
+                        href='https://fr.linkedin.com/in/cheikh-ndiaye-870513196?trk=public_profile_browsemap_profile-result-card_result-card_full-click'
+                    >
                         <img src={linkedinIcon} alt='LinkedIn' />
                     </a>
                 </div>
