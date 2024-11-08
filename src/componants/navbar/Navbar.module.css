@@ -1,6 +1,5 @@
 .nav {
     display: flex;
-    /* border: 1px solid rgb(21, 255, 0); */
     box-sizing: border-box;
     font-family: Montserrat;
     font-weight: bold;
@@ -8,20 +7,6 @@
     white-space: nowrap;
     position: relative;
     top: 0;
-}
-
-Button {
-    position: relative;
-    width: 140px;
-    height: 35px;
-    border-radius: 25px;
-    background-color: #ffff;
-    font-family: Montserrat;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-    color: black;
-    font-size: 1em;
 }
 
 .isOpen {
