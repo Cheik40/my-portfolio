@@ -14,8 +14,12 @@ function Contact() {
                 <div className={styles.titleH2}></div>
 
                 <div className={styles.description}>
-                    necessitatibus incidunt inventore iste? Neque pariatur
-                    distinctio, dolorem tenetur in saepe non harum similiqu
+                    Je suis disponible du lundi au vendredi, de 9h à 18h, et je
+                    serais ravi d'échanger avec vous ! <br />
+                    Vous pouvez me laisser un message directement via le
+                    formulaire ci-dessous, ou me joindre par mail ou par
+                    téléphone. <br />
+                    Je vous répondrai dans les plus brefs délais !
                 </div>
 
                 <div className={styles.reparate}>
@@ -52,9 +56,12 @@ function Contact() {
                         ></textarea>
                     </div>
 
-                    <div className={styles.input}>
-                        {/* <input type='button' value='Envoyer' /> */}
-                        <Button onClick={() => true} label='Envoyer' />
+                    <div className={`${styles.input} ${styles.btn}`}>
+                        <Button
+                            className='button'
+                            onClick={() => true}
+                            label='Envoyer'
+                        />
                     </div>
                 </form>
             </div>

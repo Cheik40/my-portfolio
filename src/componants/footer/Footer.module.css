@@ -31,27 +31,37 @@
     font-size: 1.5em;
     margin: 0.5em;
 }
+
+.Linka {
+    display: flex;
+    width: 4em;
+    height: 4em;
+    margin: 0;
+    padding: 0;
+    border-radius: 0%;
+}
+
+.Linka:hover {
+    border-radius: 0%;
+}
+
 .backToUpA {
     background-color: transparent;
+    border-radius: 0%;
 }
 .backToUpA:hover {
     background-color: transparent;
+    border-radius: 0%;
 }
 .backToUp {
     transform: scale(1);
     width: 2em;
+    border-radius: 0%;
 }
 
 .backToUp:hover {
     transform: translate(0%, -50%);
     transition-duration: 0.8s;
     transition-timing-function: linear;
-}
-
-.Link {
-    display: flex;
-    width: 3em;
-    height: 3em;
-    margin: 0;
-    padding: 0;
+    border-radius: 0%;
 }

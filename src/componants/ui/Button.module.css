@@ -1,0 +1,17 @@
+.button {
+    height: 3em;
+    width: 8em;
+    background-color: rgb(212, 215, 214);
+    border-left: 3px solid rgb(0, 0, 0);
+    border-right: 3px solid rgb(0, 0, 0);
+    border-top: none;
+    border-bottom: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover {
+    border-top: 3px solid rgb(0, 0, 0);
+    border-bottom: 3px solid rgb(0, 0, 0);
+    background-color: #fff;
+}

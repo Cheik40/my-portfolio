@@ -17,7 +17,7 @@ function Footer() {
             </div>
             <div className={styles.socialLink}>
                 <a
-                    className={styles.Link}
+                    className={styles.Linka}
                     href='https://github.com/Cheik40'
                     target='_blank'
                 >
@@ -25,7 +25,7 @@ function Footer() {
                 </a>
 
                 <a
-                    className={styles.Link}
+                    className={styles.Linka}
                     href='https://fr.linkedin.com/in/cheikh-ndiaye-870513196?trk=public_profile_browsemap_profile-result-card_result-card_full-click'
                     target='_blank'
                 >
