@@ -12,27 +12,30 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    height: 100%;
 }
 
 .titleH1 {
     display: flex;
     position: relative;
-    top: 130px;
+    top: 90px;
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 80px;
+    font-size: 90px;
     line-height: 94px;
     text-align: left;
     color: #000000;
     animation-duration: 5s;
     animation-name: slidein;
-    padding: 10px;
+    padding: 0 0px;
+    word-spacing: normal;
 }
 
 .jobTitle {
     display: flex;
     position: relative;
+    top: 90px;
     font-family: "Raleway";
     font-style: normal;
     font-weight: 800;
@@ -40,27 +43,35 @@
     line-height: 29px;
     text-align: left;
     color: #919191;
-    padding: 5em 10px;
+    padding: 0.2em 10px;
 }
 
 .socialIcons {
+    top: 150px;
     display: flex;
     justify-content: center;
     position: relative;
     bottom: 3em;
 }
 
-.socialIcons a {
+.socialLink {
     display: flex;
-    width: 60px;
-    height: 60px;
-    background: #c4c4c4;
+    width: 70px;
+    height: 70px;
+    background: #b7b7b7;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transform: scale(1);
+    margin: 0.5em;
 }
 
-.socialIcons a img:hover {
-    transform: scale(1.5);
+.socialLink:hover {
+    background: #d0d0d0;
+    margin: 0.5em;
+    border-radius: 0;
+}
+
+.socialLink img:hover {
+    transform: scale(1.2);
     transition-duration: 0.8s;
     transition-timing-function: linear;
 }
@@ -141,18 +152,25 @@
     }
 }
 
+.smallScreen {
+    position: static;
+    display: none;
+}
+
 @media only screen and (max-width: 1046px) {
     .intro {
         display: flex;
-        /* border: 1px solid #921b1b; */
         box-sizing: border-box;
         background-color: transparent;
         background-image: linear-gradient(-15deg, #d7d7d7 35%, #000000 0%);
-
         background-image: url("../../assets/djily.png");
         background-repeat: no-repeat;
         background-position: right center;
         background-size: contain;
+    }
+
+    .smallScreen {
+        display: none;
     }
 
     .introText {
@@ -220,7 +238,7 @@
         padding: 0;
         background: transparent;
     }
-    .socialIcons a {
+    .socialLink {
         display: flex;
         position: static;
         background: transparent;
@@ -231,13 +249,24 @@
         height: 40px;
     }
 
-    .socialIcons a img {
+    .socialLink:hover {
+        display: flex;
+        position: static;
+        background: transparent;
+        box-shadow: 0px 0px 0px;
+        transform: scale(1);
+        padding: 0;
+        width: 40px;
+        height: 40px;
+    }
+
+    .socialLink img {
         display: flex;
         position: static;
         transform: scale(1);
     }
 
-    .socialIcons a img:hover {
+    .socialLink img:hover {
         display: flex;
         position: static;
         transform: scale(1.2);
@@ -256,5 +285,10 @@
     .isOpen {
         display: flex;
         margin: 0 2em;
+    }
+
+    .desktop {
+        position: static;
+        display: none;
     }
 }
