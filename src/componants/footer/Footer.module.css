@@ -10,6 +10,7 @@
 
 .home {
     margin: 0.5em;
+    background-color: transparent;
 }
 
 .socialLink {
@@ -17,20 +18,25 @@
     justify-content: center;
     align-items: center;
     gap: 1em;
+    margin: 1%;
+    padding: 0%;
 }
 
 .email {
     font-size: 1.5em;
     margin: 0.5em;
-    font-size: 1.5em;
 }
 
 .tel {
     font-size: 1.5em;
     margin: 0.5em;
-    font-size: 1.5em;
 }
-
+.backToUpA {
+    background-color: transparent;
+}
+.backToUpA:hover {
+    background-color: transparent;
+}
 .backToUp {
     transform: scale(1);
     width: 2em;
@@ -44,6 +50,8 @@
 
 .Link {
     display: flex;
-    width: 4em;
-    height: 4em;
+    width: 3em;
+    height: 3em;
+    margin: 0;
+    padding: 0;
 }

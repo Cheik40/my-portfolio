@@ -6,7 +6,7 @@ function Footer() {
     return (
         <footer className={styles.container}>
             <div className={styles.home}>
-                <a href='#home'>
+                <a href='#home' className={styles.backToUpA}>
                     <img
                         className={styles.backToUp}
                         src={backToUp}
