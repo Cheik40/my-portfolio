@@ -1,11 +1,16 @@
-ul {
+.ul {
     display: flex;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    border: 1px saddlebrown solid;
 }
 
 @media only screen and (max-width: 1046px) {
-    ul {
+    .ul {
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         justify-content: center;
         align-items: center;
         gap: 1em;
