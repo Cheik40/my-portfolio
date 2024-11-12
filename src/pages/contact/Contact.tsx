@@ -31,7 +31,7 @@ function Contact() {
                         <input
                             className='inp'
                             type='text'
-                            placeholder='Enterz votre adresse nom*'
+                            placeholder='Enterz votre nom*'
                             required
                         />
                     </div>
