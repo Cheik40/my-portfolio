@@ -14,7 +14,7 @@ function Home() {
         <section className={styles.intro}>
             <div className={styles.introText}>
                 <h1 className={styles.titleH1}>Cheikh NDIAYE</h1>
-                <p className={styles.jobTitle}>Developeur Front-end</p>
+                <p className={styles.jobTitle}>Dévelopeur Front-end</p>
                 <div className={`${styles.desktop} ${styles.socialIcons}`}>
                     <a
                         className={styles.socialLink}
